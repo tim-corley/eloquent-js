@@ -1,5 +1,4 @@
 const sumFuncs = require("./sum-range");
-const { exportAllDeclaration } = require("@babel/types");
 
 test("add all elements in provided array", () => {
   expect(sumFuncs.sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toEqual(55);
