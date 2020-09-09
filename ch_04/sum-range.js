@@ -1,5 +1,3 @@
-const { isModuleSpecifier } = require("@babel/types");
-
 const sumFuncs = {
   sum: (arr) => {
     if (Array.isArray(arr)) {
